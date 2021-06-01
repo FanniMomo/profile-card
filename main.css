@@ -1,0 +1,134 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    background: url("assets/online-névjegy-háttér.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 5px;
+}
+
+.profile-page {
+    width: 500px;
+    max-width: calc(100vw - 10px);
+}
+
+.head {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: hsla(0, 0%, 0%, .5) 2px 5px 10px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.head,
+.links {
+    text-align: center;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+    border: 10px inset #810020;
+}
+
+.head,
+.links {
+    text-align: center;
+}
+
+.links,
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 30%;
+    padding: 2px;
+    background: #34000d;
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.profile-image {
+    margin-top: -60px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.head,
+.description {
+    margin-bottom: 10%;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 10px auto 10px auto;
+    font-family: "Goblin One";
+    font-size: 24px;
+    color: #34000d;
+}
+
+h2,
+.content {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 5px auto;
+    font-size: 18px;
+}
+
+.head,
+.content {
+    padding: 5% 10%;
+    font-size: 16px;
+}
+
+p {
+    padding: 5px;
+    color: #000000;
+}
+
+.contact {
+    color: #000000;
+}
+
+.contact,
+.fa-facebook,
+.fa-linkedin,
+.fa-pinterest {
+    font-size: 23px;
+    padding: 5px;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-pinterest {
+    color: #34000d;
+}
